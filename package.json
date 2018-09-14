@@ -1,0 +1,18 @@
+{
+ "name": "landing-page-one",
+ "version": "1.0.0",
+ "description": "This is lading page template",
+ "main": "index.js",
+ "homepage": "https://sahdatsays.github.io/landing-page-one",
+ "scripts": {
+  "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+  "deploy": "gh-pages -d /"
+ },
+ "author": "M Sahadat",
+ "license": "MIT",
+ "dependencies": {
+  "gh-pages": "^1.2.0",
+  "i": "^0.3.6",
+  "node-sass": "^4.9.3"
+ }
+}
